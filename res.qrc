@@ -1,0 +1,24 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+<qresource>
+<file>icons/open_image.png</file>
+<file>icons/open_dir.png</file>
+<file>icons/open_anno_dir.png</file>
+<file>icons/open_anno.png</file>
+<file>icons/save.png</file>
+<file>icons/save_as.png</file>
+<file>icons/close.png</file>
+<file>icons/exit.png</file>
+<file>icons/next.png</file>
+<file>icons/prev.png</file>
+<file>icons/zoom.png</file>
+<file>icons/zoom_in.png</file>
+<file>icons/zoom_out.png</file>
+<file>icons/select.png</file>
+<file>icons/edit_select.png</file>
+<file>icons/show.png</file>
+<file>icons/hide.png</file>
+<file>icons/edit_label.png</file>
+<file>icons/home.png</file>
+</qresource>
+</RCC>
