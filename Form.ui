@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>875</width>
-    <height>587</height>
+    <width>1108</width>
+    <height>845</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -23,6 +23,9 @@
       <property name="mouseTracking">
        <bool>true</bool>
       </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
      </widget>
     </item>
    </layout>
@@ -32,7 +35,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>875</width>
+     <width>1108</width>
      <height>23</height>
     </rect>
    </property>
@@ -42,7 +45,6 @@
     </property>
     <addaction name="actionOpen"/>
     <addaction name="actionOpen_Dir"/>
-    <addaction name="actionOpen_Anno"/>
     <addaction name="actionOpen_Annotation_Dir"/>
     <addaction name="separator"/>
     <addaction name="actionSave"/>
@@ -55,8 +57,8 @@
     <property name="title">
      <string>Edit</string>
     </property>
-    <addaction name="actionNext_Image"/>
-    <addaction name="actionPrev_Image"/>
+    <addaction name="actionNext"/>
+    <addaction name="actionPrev"/>
     <addaction name="separator"/>
     <addaction name="actionCreate_RectBox"/>
     <addaction name="actionEdit_RectBox"/>
@@ -69,9 +71,9 @@
     <addaction name="actionShow_RectBox"/>
     <addaction name="actionHidden_RectBox"/>
     <addaction name="separator"/>
-    <addaction name="actionZoom_in"/>
-    <addaction name="actionZoom_Out"/>
-    <addaction name="actionOriginal_Size"/>
+    <addaction name="actionZoomIn"/>
+    <addaction name="actionZoomOut"/>
+    <addaction name="actionZoom"/>
    </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
@@ -96,15 +98,14 @@
    </attribute>
    <addaction name="actionOpen"/>
    <addaction name="actionOpen_Dir"/>
-   <addaction name="actionOpen_Anno"/>
    <addaction name="actionOpen_Annotation_Dir"/>
    <addaction name="actionSave"/>
    <addaction name="separator"/>
-   <addaction name="actionNext_Image"/>
-   <addaction name="actionPrev_Image"/>
-   <addaction name="actionZoom_in"/>
-   <addaction name="actionZoom_Out"/>
-   <addaction name="actionOriginal_Size"/>
+   <addaction name="actionNext"/>
+   <addaction name="actionPrev"/>
+   <addaction name="actionZoomIn"/>
+   <addaction name="actionZoomOut"/>
+   <addaction name="actionZoom"/>
    <addaction name="separator"/>
    <addaction name="actionCreate_RectBox"/>
   </widget>
@@ -119,10 +120,106 @@
    <attribute name="dockWidgetArea">
     <number>2</number>
    </attribute>
-   <widget class="QWidget" name="dockWidgetContents">
+   <widget class="QWidget" name="dockWidgetLabel">
     <layout class="QGridLayout" name="gridLayout_3">
      <item row="0" column="0">
-      <widget class="QListWidget" name="listWidget_setting"/>
+      <widget class="QTabWidget" name="tabWidget">
+       <property name="currentIndex">
+        <number>1</number>
+       </property>
+       <widget class="QWidget" name="tab_0">
+        <attribute name="title">
+         <string>Labels</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_7">
+         <item row="0" column="0">
+          <widget class="QListView" name="listView_labels"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="tab_1">
+        <attribute name="title">
+         <string>Setting</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_8">
+         <item row="1" column="0">
+          <widget class="QGroupBox" name="groupBox_type">
+           <property name="title">
+            <string>Label Type---[None]</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_5">
+            <item row="0" column="1">
+             <widget class="QRadioButton" name="radioRect">
+              <property name="text">
+               <string>Rect</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="4">
+             <widget class="QRadioButton" name="radioCircle">
+              <property name="text">
+               <string>Circle</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="3">
+             <widget class="QRadioButton" name="radioPoint">
+              <property name="text">
+               <string>Point</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="QRadioButton" name="radioPolygon">
+              <property name="text">
+               <string>Poly</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QGroupBox" name="groupBox_label">
+           <property name="title">
+            <string>Default Label---[None]</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_4">
+            <item row="0" column="0">
+             <widget class="QLineEdit" name="lineEdit_label"/>
+            </item>
+            <item row="0" column="1">
+             <widget class="QPushButton" name="pushButton_label">
+              <property name="text">
+               <string>Set</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QGroupBox" name="groupBox_editer">
+           <property name="title">
+            <string>Editer---[None]</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_9">
+            <item row="0" column="0">
+             <widget class="QLineEdit" name="lineEdit_editer"/>
+            </item>
+            <item row="0" column="1">
+             <widget class="QPushButton" name="pushButton">
+              <property name="text">
+               <string>Set</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
      </item>
     </layout>
    </widget>
@@ -152,10 +249,10 @@
    <attribute name="dockWidgetArea">
     <number>2</number>
    </attribute>
-   <widget class="QWidget" name="dockWidgetContents_2">
+   <widget class="QWidget" name="dockWidgetImage">
     <layout class="QGridLayout" name="gridLayout_2">
-     <item row="0" column="0">
-      <widget class="QListWidget" name="listWidget_image_list"/>
+     <item row="1" column="2">
+      <widget class="QListView" name="listView_images"/>
      </item>
     </layout>
    </widget>
@@ -256,7 +353,7 @@
     <string>Ctrl+Z</string>
    </property>
   </action>
-  <action name="actionNext_Image">
+  <action name="actionNext">
    <property name="icon">
     <iconset resource="res.qrc">
      <normaloff>:/icons/next.png</normaloff>:/icons/next.png</iconset>
@@ -268,7 +365,7 @@
     <string>Ctrl+D</string>
    </property>
   </action>
-  <action name="actionPrev_Image">
+  <action name="actionPrev">
    <property name="icon">
     <iconset resource="res.qrc">
      <normaloff>:/icons/prev.png</normaloff>:/icons/prev.png</iconset>
@@ -325,7 +422,7 @@
     <string>Hide RectBox</string>
    </property>
   </action>
-  <action name="actionZoom_in">
+  <action name="actionZoomIn">
    <property name="icon">
     <iconset resource="res.qrc">
      <normaloff>:/icons/zoom_in.png</normaloff>:/icons/zoom_in.png</iconset>
@@ -334,7 +431,7 @@
     <string>Zoom In</string>
    </property>
   </action>
-  <action name="actionZoom_Out">
+  <action name="actionZoomOut">
    <property name="icon">
     <iconset resource="res.qrc">
      <normaloff>:/icons/zoom_out.png</normaloff>:/icons/zoom_out.png</iconset>
@@ -343,7 +440,7 @@
     <string>Zoom Out</string>
    </property>
   </action>
-  <action name="actionOriginal_Size">
+  <action name="actionZoom">
    <property name="icon">
     <iconset resource="res.qrc">
      <normaloff>:/icons/zoom.png</normaloff>:/icons/zoom.png</iconset>
@@ -365,5 +462,38 @@
  <resources>
   <include location="res.qrc"/>
  </resources>
- <connections/>
+ <connections>
+  <connection>
+   <sender>actionQuit</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>398</x>
+     <y>269</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionClose</sender>
+   <signal>triggered()</signal>
+   <receiver>graphicsView</receiver>
+   <slot>invalidateScene()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>273</x>
+     <y>270</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>

@@ -36,12 +36,24 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         """
         Slot documentation goes here.
         """
-        self.image_path_list, img_type = QtWidgets.QFileDialog.getOpenFileNames(caption='choice image..', filter='*.jpg;;*.png')
+        self.image_path_list, img_type = \
+            QtWidgets.QFileDialog.getOpenFileNames(caption='choice image..',
+                                                   filter='JPEG(*.jpg);;PNG(*.png);;ALL(*.*)')
         self.statusBar.showMessage('add image list..')
         self.img_idx = 0
         self.all_img_num = len(self.image_path_list)
+        self.listWidget_image_list.clear()
         self.listWidget_image_list.addItems(self.image_path_list)
         self.display_image()
+
+    @pyqtSlot()
+    def on_actionOpen_Dir_triggered(self):
+        pass
+
+    @pyqtSlot()
+    def on_actionOpen_Annotation_Dir_triggered(self):
+        pass
+
 
     def cursor_next(self):
         if self.img_idx >= self.all_img_num - 1:
@@ -66,7 +78,8 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         if self.all_img_num == 0:
             return
 
-        image_path = self.image_path_list[self.img_idx]
+        image_path = self.listWidget_image_list.item(self.img_idx).text()
+        # image_path = self.image_path_list[self.img_idx]
         pixmap = QtGui.QPixmap()
         pixmap.load(image_path)
         self.image = QtWidgets.QGraphicsPixmapItem(pixmap)
@@ -98,5 +111,5 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.image_scene.setInsertType(myItemType.RECT)
 
     @pyqtSlot()
-    def on_actionZoom_in_triggered(self):
+    def on_actionZoomIn_triggered(self):
         self.image_scene.setInsertType(myItemType.CIRCLE)
