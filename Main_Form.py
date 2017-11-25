@@ -7,11 +7,14 @@ Module implementing MainWindow.
 
 
 from PyQt5 import QtWidgets, QtCore, QtGui
+from PyQt5.QtCore import Qt
 from PyQt5.QtCore import pyqtSignal, pyqtSlot
 from libs import myImageScene
 
-from Ui_Form import Ui_MainWindow
+# from Ui_Form import Ui_MainWindow
+from Form_ui import Ui_MainWindow
 from libs import myItemType
+
 
 class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
     """
@@ -36,15 +39,18 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         """
         Slot documentation goes here.
         """
-        self.image_path_list, img_type = \
+        image_list, img_type = \
             QtWidgets.QFileDialog.getOpenFileNames(caption='choice image..',
                                                    filter='JPEG(*.jpg);;PNG(*.png);;ALL(*.*)')
-        self.statusBar.showMessage('add image list..')
         self.img_idx = 0
-        self.all_img_num = len(self.image_path_list)
-        self.listWidget_image_list.clear()
-        self.listWidget_image_list.addItems(self.image_path_list)
-        self.display_image()
+        self.all_num_img = len(image_list)
+        image_item = QtWidgets.QTableWidgetItem()
+        image_item.setText('abc')
+        self.tableWidget_image.setRowCount(self.all_num_img)
+        self.tableWidget_image.setColumnCount(3)
+        self.tableWidget_image.setItem(0, 0, image_item)
+
+        self.statusBar.showMessage('add image list..')
 
     @pyqtSlot()
     def on_actionOpen_Dir_triggered(self):
@@ -53,6 +59,13 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
     @pyqtSlot()
     def on_actionOpen_Annotation_Dir_triggered(self):
         pass
+
+    @pyqtSlot()
+    def on_pushButton_editer_clicked(self):
+        name_str = self.lineEdit_editer.text()
+        title_str = 'Editer---[{}]'.format(name_str)
+        if len(name_str) > 0:
+            self.groupBox_editer.setTitle(title_str)
 
 
     def cursor_next(self):
@@ -78,16 +91,16 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         if self.all_img_num == 0:
             return
 
-        image_path = self.listWidget_image_list.item(self.img_idx).text()
+        # image_path = self.listWidget_image_list.item(self.img_idx).text()
         # image_path = self.image_path_list[self.img_idx]
-        pixmap = QtGui.QPixmap()
-        pixmap.load(image_path)
-        self.image = QtWidgets.QGraphicsPixmapItem(pixmap)
+        # pixmap = QtGui.QPixmap()
+        # pixmap.load(image_path)
+        # self.image = QtWidgets.QGraphicsPixmapItem(pixmap)
 
-        self.image_scene.clear()
+        # self.image_scene.clear()
         # rect = QtCore.QRectF(0, 0, 0, 0)
         # self.graphicsView.setSceneRect(rect)
-        self.image_scene.addItem(self.image)
+        # self.image_scene.addItem(self.image)
 
 
     @pyqtSlot()
