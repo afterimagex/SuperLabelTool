@@ -33,24 +33,26 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.image_scene = myImageScene(self.statusBar)
         self.graphicsView.setScene(self.image_scene)
 
+        # self.treeWidget_file.topLevelItem(0).setText(0, _translate("MainWindow", "23123.jpg"))
+
 
     @pyqtSlot()
     def on_actionOpen_triggered(self):
         """
         Slot documentation goes here.
         """
-        image_list, img_type = \
+        self.image_list, img_type = \
             QtWidgets.QFileDialog.getOpenFileNames(caption='choice image..',
                                                    filter='JPEG(*.jpg);;PNG(*.png);;ALL(*.*)')
         self.img_idx = 0
-        self.all_num_img = len(image_list)
-        image_item = QtWidgets.QTableWidgetItem()
-        image_item.setText('abc')
-        self.tableWidget_image.setRowCount(self.all_num_img)
-        self.tableWidget_image.setColumnCount(3)
-        self.tableWidget_image.setItem(0, 0, image_item)
+        self.all_num_img = len(self.image_list)
 
-        self.statusBar.showMessage('add image list..')
+        # for i in range(len(image_list)):
+        #     QtWidgets.QTreeWidgetItem(self.treeWidget_file)
+        #     _dir, _file = os.path.split(image_list[i])
+        #     self.dockFilelist.setWindowTitle(_dir)
+        #     self.treeWidget_file.topLevelItem(i).setText(0, _file)
+        self.display_image()
 
     @pyqtSlot()
     def on_actionOpen_Dir_triggered(self):
@@ -88,19 +90,19 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         # bytes_per_line = w * c
         # cv_image = cv2.cvtColor(cv_image, cv2.COLOR_BGR2RGB)
         # qt_image = QtGui.QImage(cv_image, w, h, bytes_per_line, QtGui.QImage.Format_RGB888)
-        if self.all_img_num == 0:
-            return
+        if self.all_num_img <= 0:
+            pass
 
         # image_path = self.listWidget_image_list.item(self.img_idx).text()
-        # image_path = self.image_path_list[self.img_idx]
-        # pixmap = QtGui.QPixmap()
-        # pixmap.load(image_path)
-        # self.image = QtWidgets.QGraphicsPixmapItem(pixmap)
+        image_path = self.image_list[self.img_idx]
+        pixmap = QtGui.QPixmap()
+        pixmap.load(image_path)
+        self.image = QtWidgets.QGraphicsPixmapItem(pixmap)
 
         # self.image_scene.clear()
         # rect = QtCore.QRectF(0, 0, 0, 0)
         # self.graphicsView.setSceneRect(rect)
-        # self.image_scene.addItem(self.image)
+        self.image_scene.addItem(self.image)
 
 
     @pyqtSlot()

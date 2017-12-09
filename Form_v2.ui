@@ -11,19 +11,12 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>SuperLabelTool-[Picture]</string>
+   <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QGridLayout" name="gridLayout_10">
     <item row="0" column="0">
-     <widget class="QGraphicsView" name="graphicsView">
-      <property name="cursor" stdset="0">
-       <cursorShape>CrossCursor</cursorShape>
-      </property>
-      <property name="mouseTracking">
-       <bool>true</bool>
-      </property>
-     </widget>
+     <widget class="QGraphicsView" name="graphicsView_video"/>
     </item>
    </layout>
   </widget>
@@ -136,47 +129,47 @@
    <widget class="QWidget" name="dockWidgetImage">
     <layout class="QGridLayout" name="gridLayout">
      <item row="0" column="0">
-      <widget class="QTabWidget" name="tabWidget">
+      <widget class="QTabWidget" name="tabWidget_label">
        <property name="currentIndex">
         <number>0</number>
        </property>
-       <widget class="QWidget" name="tab_file">
+       <widget class="QWidget" name="tab_3">
         <attribute name="title">
          <string>File</string>
         </attribute>
         <layout class="QGridLayout" name="gridLayout_2">
          <item row="0" column="0">
-          <widget class="QTreeWidget" name="treeWidget_file">
+          <widget class="QTreeWidget" name="treeWidget">
            <column>
             <property name="text">
-             <string>File</string>
+             <string>编辑者</string>
             </property>
            </column>
            <column>
             <property name="text">
-             <string>Editor</string>
+             <string>文件</string>
             </property>
            </column>
            <column>
             <property name="text">
-             <string>Time</string>
+             <string>类型</string>
             </property>
            </column>
            <column>
             <property name="text">
-             <string>Type</string>
+             <string>日期</string>
             </property>
            </column>
            <item>
+            <property name="text">
+             <string>zhangxiaolong</string>
+            </property>
             <property name="text">
              <string>23123.jpg</string>
             </property>
             <property name="icon">
              <iconset resource="res.qrc">
-              <normaloff>:/icons/check.png</normaloff>:/icons/check.png</iconset>
-            </property>
-            <property name="text">
-             <string>zhangxiaolong</string>
+              <normaloff>:/icons/exit.png</normaloff>:/icons/exit.png</iconset>
             </property>
             <property name="text">
              <string/>
@@ -187,14 +180,24 @@
            </item>
            <item>
             <property name="text">
-             <string>1231231.jpg</string>
-            </property>
-            <property name="icon">
-             <iconset resource="res.qrc">
-              <normaloff>:/icons/cross.png</normaloff>:/icons/cross.png</iconset>
+             <string/>
             </property>
             <property name="text">
-             <string>sdf </string>
+             <string>1231231.jpg</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="text">
+             <string>asdff </string>
             </property>
             <property name="text">
              <string/>
@@ -207,7 +210,7 @@
          </item>
         </layout>
        </widget>
-       <widget class="QWidget" name="tab_label">
+       <widget class="QWidget" name="tab_0">
         <attribute name="title">
          <string>Labels</string>
         </attribute>
@@ -217,7 +220,7 @@
          </item>
         </layout>
        </widget>
-       <widget class="QWidget" name="tab_setting">
+       <widget class="QWidget" name="tab_1">
         <attribute name="title">
          <string>Setting</string>
         </attribute>
