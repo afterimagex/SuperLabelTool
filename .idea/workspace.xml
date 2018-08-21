@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="455cde06-211c-4269-8031-d7d0cd7f22fb" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Form_v2.ui" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Main_Form.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/newPascalVoc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/test/Annotations/01.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/test/Annotations/02.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/v3.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Form.ui" afterPath="$PROJECT_DIR$/Form.ui" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Form_ui.py" afterPath="$PROJECT_DIR$/Form_ui.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main_Form.py" afterPath="$PROJECT_DIR$/Main_Form.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs.py" afterPath="$PROJECT_DIR$/libs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/PascalVoc.py" afterPath="$PROJECT_DIR$/modules/PascalVoc.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res.qrc" afterPath="$PROJECT_DIR$/res.qrc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res_rc.py" afterPath="$PROJECT_DIR$/res_rc.py" />
     </list>
@@ -18,215 +27,440 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/SuperLabelTool$chart.coverage" NAME="chart Coverage Results" MODIFIED="1511530484879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/itemviews/chart" />
-    <SUITE FILE_PATH="coverage/SuperLabelTool$install.coverage" NAME="install Coverage Results" MODIFIED="1511329115934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Anaconda2/envs/python35/Lib/site-packages/eric6" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$dropsite.coverage" NAME="dropsite Coverage Results" MODIFIED="1521872662343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/draganddrop" />
     <SUITE FILE_PATH="coverage/SuperLabelTool$simplewidgetmapper.coverage" NAME="simplewidgetmapper Coverage Results" MODIFIED="1511530545415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/itemviews" />
     <SUITE FILE_PATH="coverage/SuperLabelTool$listnames.coverage" NAME="listnames Coverage Results" MODIFIED="1511530429008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/dbus" />
     <SUITE FILE_PATH="coverage/SuperLabelTool$eric6.coverage" NAME="eric6 Coverage Results" MODIFIED="1511329444824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Anaconda2/envs/python35/Lib/site-packages/eric6" />
     <SUITE FILE_PATH="coverage/SuperLabelTool$collidingmice.coverage" NAME="collidingmice Coverage Results" MODIFIED="1511426752363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/graphicsview/collidingmice" />
-    <SUITE FILE_PATH="coverage/SuperLabelTool$pixelator.coverage" NAME="pixelator Coverage Results" MODIFIED="1511530241650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/itemviews/pixelator" />
-    <SUITE FILE_PATH="coverage/SuperLabelTool$dragdroprobot.coverage" NAME="dragdroprobot Coverage Results" MODIFIED="1511426701189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/graphicsview/dragdroprobot" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$to_ocr_label.coverage" NAME="to_ocr_label Coverage Results" MODIFIED="1521627330749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="J:/OCRX_OUT" />
     <SUITE FILE_PATH="coverage/SuperLabelTool$grabber.coverage" NAME="grabber Coverage Results" MODIFIED="1511530342314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/opengl" />
     <SUITE FILE_PATH="coverage/SuperLabelTool$Ui_Form.coverage" NAME="Ui_Form Coverage Results" MODIFIED="1511331558176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$matplotlib_pyqt.coverage" NAME="matplotlib_pyqt Coverage Results" MODIFIED="1521810125275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5/Chapter09" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$qt04_drawPoint.coverage" NAME="qt04_drawPoint Coverage Results" MODIFIED="1521810265034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5/Chapter04" />
     <SUITE FILE_PATH="coverage/SuperLabelTool$puzzle.coverage" NAME="puzzle Coverage Results" MODIFIED="1511529944838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/itemviews/puzzle" />
     <SUITE FILE_PATH="coverage/SuperLabelTool$basiclayouts.coverage" NAME="basiclayouts Coverage Results" MODIFIED="1511530460524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/layouts" />
-    <SUITE FILE_PATH="coverage/SuperLabelTool$basicsortfiltermodel.coverage" NAME="basicsortfiltermodel Coverage Results" MODIFIED="1511532840702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/itemviews" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool$setup.coverage" NAME="setup Coverage Results" MODIFIED="1513042761865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Dragon/Dragon/python" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$split4label.coverage" NAME="split4label Coverage Results" MODIFIED="1521856667269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/DATA/OCRX/OUTPUT" />
     <SUITE FILE_PATH="coverage/SuperLabelTool$dirview.coverage" NAME="dirview Coverage Results" MODIFIED="1511529373249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/itemviews" />
-    <SUITE FILE_PATH="coverage/SuperLabelTool$openglwindow.coverage" NAME="openglwindow Coverage Results" MODIFIED="1511530357509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/opengl" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$mypyqtgraph.coverage" NAME="mypyqtgraph Coverage Results" MODIFIED="1521809091849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/PyQt5/Chapter11" />
     <SUITE FILE_PATH="coverage/SuperLabelTool$part3.coverage" NAME="part3 Coverage Results" MODIFIED="1511530388618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/tutorials/addressbook" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$OCR_Labeler.coverage" NAME="OCR_Labeler Coverage Results" MODIFIED="1522131489756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool$screenshot.coverage" NAME="screenshot Coverage Results" MODIFIED="1511530443057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/desktop" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool$libs.coverage" NAME="libs Coverage Results" MODIFIED="1511427231860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$qt04_drag.coverage" NAME="qt04_drag Coverage Results" MODIFIED="1521870087177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5/Chapter04" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool$spreadsheetitem.coverage" NAME="spreadsheetitem Coverage Results" MODIFIED="1511530231568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/itemviews/spreadsheet" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool$v3.coverage" NAME="v3 Coverage Results" MODIFIED="1513409239895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$123.coverage" NAME="123 Coverage Results" MODIFIED="1521288510487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$anchorlayout.coverage" NAME="anchorlayout Coverage Results" MODIFIED="1521873632718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/graphicsview" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool$main.coverage" NAME="main Coverage Results" MODIFIED="1521197016808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool$jiaoben.coverage" NAME="jiaoben Coverage Results" MODIFIED="1511528823880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/DATA/boat1112_rect" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool$padnavigator.coverage" NAME="padnavigator Coverage Results" MODIFIED="1511426730866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/graphicsview/padnavigator" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$PascalVoc.coverage" NAME="PascalVoc Coverage Results" MODIFIED="1521272717089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$diagramscene.coverage" NAME="diagramscene Coverage Results" MODIFIED="1521888836431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/graphicsview/diagramscene" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool$textures.coverage" NAME="textures Coverage Results" MODIFIED="1511530368857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/opengl/textures" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool$Main_Form.coverage" NAME="Main_Form Coverage Results" MODIFIED="1513578020076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$qt08_imgScaled.coverage" NAME="qt08_imgScaled Coverage Results" MODIFIED="1521809920985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5/Chapter08" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$MainAction.coverage" NAME="MainAction Coverage Results" MODIFIED="1521812547167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool$chart.coverage" NAME="chart Coverage Results" MODIFIED="1511530484879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/itemviews/chart" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$qt08_winBkground01.coverage" NAME="qt08_winBkground01 Coverage Results" MODIFIED="1521809942516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5/Chapter08" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool$install.coverage" NAME="install Coverage Results" MODIFIED="1511329115934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Anaconda2/envs/python35/Lib/site-packages/eric6" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$.coverage" NAME="登陆 Coverage Results" MODIFIED="1521809843848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5/Chapter04" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$qt101_testPyQt.coverage" NAME="qt101_testPyQt Coverage Results" MODIFIED="1521810245086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5/Chapter01" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$qt402_FirstPyQt.coverage" NAME="qt402_FirstPyQt Coverage Results" MODIFIED="1521810295692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5/Chapter04" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$libs.coverage" NAME="libs Coverage Results" MODIFIED="1521874495462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$getWeatherInfo.coverage" NAME="getWeatherInfo Coverage Results" MODIFIED="1521810221696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5/Chapter10/example1" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool$pixelator.coverage" NAME="pixelator Coverage Results" MODIFIED="1511530241650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/itemviews/pixelator" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool$dragdroprobot.coverage" NAME="dragdroprobot Coverage Results" MODIFIED="1513564093940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../qt5examples/graphicsview/dragdroprobot" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$main.coverage" NAME="main Coverage Results" MODIFIED="1522225667799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/graphicsview/my_test" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool$basicsortfiltermodel.coverage" NAME="basicsortfiltermodel Coverage Results" MODIFIED="1511532840702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/itemviews" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool$Form_ui.coverage" NAME="Form_ui Coverage Results" MODIFIED="1514016098456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$DataGrid.coverage" NAME="DataGrid Coverage Results" MODIFIED="1521810193875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5/Chapter09" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool$openglwindow.coverage" NAME="openglwindow Coverage Results" MODIFIED="1511530357509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/opengl" />
     <SUITE FILE_PATH="coverage/SuperLabelTool$PascalVoc.coverage" NAME="PascalVoc Coverage Results" MODIFIED="1512195981529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$demo_plotly_pyqt.coverage" NAME="demo_plotly_pyqt Coverage Results" MODIFIED="1521809956051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5/Chapter09" />
     <SUITE FILE_PATH="coverage/SuperLabelTool$overpainting.coverage" NAME="overpainting Coverage Results" MODIFIED="1511530362439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/opengl" />
     <SUITE FILE_PATH="coverage/SuperLabelTool$SuperLabelTool.coverage" NAME="SuperLabelTool Coverage Results" MODIFIED="1511331855992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SuperLabelTool$screenshot.coverage" NAME="screenshot Coverage Results" MODIFIED="1511530443057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/desktop" />
     <SUITE FILE_PATH="coverage/SuperLabelTool$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1512051324657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
     <SUITE FILE_PATH="coverage/SuperLabelTool$customsortfiltermodel.coverage" NAME="customsortfiltermodel Coverage Results" MODIFIED="1512039930097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/itemviews" />
-    <SUITE FILE_PATH="coverage/SuperLabelTool$libs.coverage" NAME="libs Coverage Results" MODIFIED="1511427231860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SuperLabelTool$spreadsheetitem.coverage" NAME="spreadsheetitem Coverage Results" MODIFIED="1511530231568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/itemviews/spreadsheet" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool$demo.coverage" NAME="demo Coverage Results" MODIFIED="1513308571581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/PlanePoint/GAO" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$qt5_webview01.coverage" NAME="qt5_webview01 Coverage Results" MODIFIED="1521810186127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5/Chapter09" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$auto_label.coverage" NAME="auto_label Coverage Results" MODIFIED="1521856234368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="J:/OCRX" />
     <SUITE FILE_PATH="coverage/SuperLabelTool$diagramscene.coverage" NAME="diagramscene Coverage Results" MODIFIED="1511427141531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/graphicsview/diagramscene" />
-    <SUITE FILE_PATH="coverage/SuperLabelTool$test.coverage" NAME="test Coverage Results" MODIFIED="1512221927349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
-    <SUITE FILE_PATH="coverage/SuperLabelTool$v3.coverage" NAME="v3 Coverage Results" MODIFIED="1512482154862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool$test.coverage" NAME="test Coverage Results" MODIFIED="1513411684935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../labelImg-master/tests" />
     <SUITE FILE_PATH="coverage/SuperLabelTool$spreadsheet.coverage" NAME="spreadsheet Coverage Results" MODIFIED="1511530222006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/itemviews/spreadsheet" />
     <SUITE FILE_PATH="coverage/SuperLabelTool$2dpainting.coverage" NAME="2dpainting Coverage Results" MODIFIED="1511530333258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/opengl" />
     <SUITE FILE_PATH="coverage/SuperLabelTool$simpletreemodel.coverage" NAME="simpletreemodel Coverage Results" MODIFIED="1511530509082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/itemviews/simpletreemodel" />
     <SUITE FILE_PATH="coverage/SuperLabelTool$hellogl.coverage" NAME="hellogl Coverage Results" MODIFIED="1511530352180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/opengl" />
-    <SUITE FILE_PATH="coverage/SuperLabelTool$main.coverage" NAME="main Coverage Results" MODIFIED="1512135048619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SuperLabelTool$jiaoben.coverage" NAME="jiaoben Coverage Results" MODIFIED="1511528823880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/DATA/boat1112_rect" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$labelImg.coverage" NAME="labelImg Coverage Results" MODIFIED="1522224420057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../labelImg-master" />
     <SUITE FILE_PATH="coverage/SuperLabelTool$Form.coverage" NAME="Form Coverage Results" MODIFIED="1511331516264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SuperLabelTool$padnavigator.coverage" NAME="padnavigator Coverage Results" MODIFIED="1511426730866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/graphicsview/padnavigator" />
-    <SUITE FILE_PATH="coverage/SuperLabelTool$textures.coverage" NAME="textures Coverage Results" MODIFIED="1511530368857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/opengl/textures" />
-    <SUITE FILE_PATH="coverage/SuperLabelTool$Main_Form.coverage" NAME="Main_Form Coverage Results" MODIFIED="1512135044702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SuperLabelTool$newPascalVoc.coverage" NAME="newPascalVoc Coverage Results" MODIFIED="1512522940432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$elasticnodes.coverage" NAME="elasticnodes Coverage Results" MODIFIED="1521874321557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/graphicsview" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$qt0426_QPainter.coverage" NAME="qt0426_QPainter Coverage Results" MODIFIED="1521810307552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt5/Chapter04" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool$newPascalVoc.coverage" NAME="newPascalVoc Coverage Results" MODIFIED="1513409197778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/SuperLabelTool_OCR$elasticnodes_test.coverage" NAME="elasticnodes_test Coverage Results" MODIFIED="1521884989314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/graphicsview" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main_Form.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main_Form.py">
+      <file leaf-file-name="elasticnodes_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/graphicsview/elasticnodes_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="622">
-              <caret line="58" column="12" lean-forward="false" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
-              <folding>
-                <element signature="e#68#110#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PascalVoc.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/PascalVoc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="228" column="28" lean-forward="false" selection-start-line="228" selection-start-column="28" selection-end-line="228" selection-end-column="28" />
-              <folding>
-                <element signature="e#221#230#0" expanded="true" />
-                <element signature="e#320#460#0" expanded="false" />
-                <element signature="e#355#408#0" expanded="false" />
-                <element signature="e#492#1366#0" expanded="false" />
-                <element signature="e#529#577#0" expanded="false" />
-                <element signature="e#611#1366#0" expanded="false" />
-                <element signature="e#1396#2811#0" expanded="false" />
-                <element signature="e#1439#1979#0" expanded="false" />
-                <element signature="e#2023#2599#0" expanded="false" />
-                <element signature="e#2080#2391#0" expanded="false" />
-                <element signature="e#2646#2753#0" expanded="false" />
-                <element signature="e#2783#2811#0" expanded="false" />
-                <element signature="e#3038#4369#0" expanded="false" />
-                <element signature="e#3095#3184#0" expanded="false" />
-                <element signature="e#3252#3344#0" expanded="false" />
-                <element signature="e#3412#3814#0" expanded="false" />
-                <element signature="e#3880#4214#0" expanded="false" />
-                <element signature="e#4281#4369#0" expanded="false" />
-                <element signature="e#4427#4543#0" expanded="false" />
-                <element signature="e#4588#6259#0" expanded="false" />
-                <element signature="e#5620#6259#0" expanded="false" />
-                <element signature="e#5674#6259#0" expanded="false" />
-                <element signature="e#6105#6258#0" expanded="false" />
-                <element signature="e#6347#6705#0" expanded="false" />
-                <element signature="e#6741#6813#0" expanded="false" />
-                <element signature="e#6851#7100#0" expanded="false" />
-                <element signature="e#7180#7902#0" expanded="false" />
-                <element signature="e#7854#7902#0" expanded="false" />
-                <element signature="e#8169#8658#0" expanded="false" />
-                <element signature="e#8710#9334#0" expanded="false" />
-                <element signature="e#8779#9106#0" expanded="false" />
-                <element signature="e#9389#9508#0" expanded="false" />
-                <element signature="e#9546#9574#0" expanded="false" />
-                <element signature="e#9611#10942#0" expanded="false" />
-                <element signature="e#9668#9757#0" expanded="false" />
-                <element signature="e#9825#9917#0" expanded="false" />
-                <element signature="e#9985#10387#0" expanded="false" />
-                <element signature="e#10453#10787#0" expanded="false" />
-                <element signature="e#10854#10942#0" expanded="false" />
-                <element signature="e#11382#11801#0" expanded="false" />
-                <element signature="e#11700#11734#0" expanded="false" />
-                <element signature="e#11835#11853#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newPascalVoc.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modules/newPascalVoc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="853">
-              <caret line="156" column="0" lean-forward="true" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+            <state relative-caret-position="462">
+              <caret line="63" column="44" lean-forward="false" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
               <folding>
                 <element signature="n#!!doc" expanded="false" />
-                <element signature="e#403#708#0" expanded="false" />
-                <element signature="e#431#708#0" expanded="false" />
-                <element signature="e#740#1854#0" expanded="false" />
-                <element signature="e#777#825#0" expanded="false" />
-                <element signature="e#859#1015#0" expanded="false" />
-                <element signature="e#898#955#0" expanded="false" />
-                <element signature="e#1049#1854#0" expanded="false" />
-                <element signature="e#1931#2471#0" expanded="false" />
-                <element signature="e#2519#3261#0" expanded="false" />
-                <element signature="e#2519#2599#1" expanded="false" />
-                <element signature="e#2665#2729#0" expanded="false" />
-                <element signature="e#3305#3791#0" expanded="false" />
-                <element signature="e#3305#3395#1" expanded="false" />
-                <element signature="e#3833#4699#0" expanded="false" />
-                <element signature="e#3833#3936#1" expanded="false" />
-                <element signature="e#3962#4024#0" expanded="false" />
-                <element signature="e#4163#4673#0" expanded="false" />
-                <element signature="e#4745#5242#0" expanded="false" />
-                <element signature="e#4745#4837#1" expanded="false" />
-                <element signature="e#4863#4929#0" expanded="false" />
-                <element signature="e#5074#5214#0" expanded="false" />
-                <element signature="e#5272#5324#0" expanded="false" />
-                <element signature="e#5358#7956#0" expanded="false" />
-                <element signature="e#5386#5447#0" expanded="false" />
-                <element signature="e#5494#6097#0" expanded="false" />
-                <element signature="e#6132#6588#0" expanded="false" />
-                <element signature="e#6263#6412#0" expanded="false" />
-                <element signature="e#6434#6533#0" expanded="false" />
-                <element signature="e#6625#7956#0" expanded="false" />
-                <element signature="e#6839#6931#0" expanded="false" />
-                <element signature="e#6999#7401#0" expanded="false" />
-                <element signature="e#7467#7801#0" expanded="false" />
-                <element signature="e#7868#7956#0" expanded="false" />
-                <element signature="e#8018#8098#0" expanded="false" />
-                <element signature="e#8189#8507#0" expanded="false" />
-                <element signature="e#8553#8735#0" expanded="false" />
-                <element signature="e#8771#9111#0" expanded="false" />
-                <element signature="e#9176#9256#0" expanded="false" />
-                <element signature="e#9314#9430#0" expanded="false" />
-                <element signature="e#9471#10357#0" expanded="false" />
-                <element signature="e#10403#11337#0" expanded="false" />
-                <element signature="e#10911#11083#0" expanded="false" />
-                <element signature="e#11157#11337#0" expanded="false" />
-                <element signature="e#11407#11436#0" expanded="false" />
-                <element signature="e#11551#11592#0" expanded="false" />
+                <element signature="e#2058#2069#0" expanded="true" />
+                <element signature="e#3417#4068#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="v3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/v3.py">
+      <file leaf-file-name="Form_ui.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/graphicsview/my_test/Form_ui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+            <state relative-caret-position="210">
+              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lib.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../labelImg-master/libs/lib.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1344">
+              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shape.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../labelImg-master/libs/shape.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2394">
+              <caret line="114" column="18" lean-forward="false" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="canvas.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../labelImg-master/libs/canvas.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="651">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="labelImg.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../labelImg-master/labelImg.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1323">
+              <caret line="509" column="0" lean-forward="false" selection-start-line="509" selection-start-column="0" selection-end-line="509" selection-end-column="0" />
               <folding>
-                <element signature="e#408#1823#0" expanded="false" />
-                <element signature="e#2254#2263#0" expanded="false" />
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="e#208#298#0" expanded="false" />
+                <element signature="e#323#676#0" expanded="false" />
+                <element signature="e#323#343#0" expanded="false" />
+                <element signature="e#571#615#0" expanded="false" />
+                <element signature="e#1206#1447#0" expanded="false" />
+                <element signature="e#1280#1413#0" expanded="false" />
+                <element signature="e#1474#1628#0" expanded="false" />
+                <element signature="e#1663#1709#0" expanded="false" />
+                <element signature="e#1744#2282#0" expanded="false" />
+                <element signature="e#1789#1903#0" expanded="false" />
+                <element signature="e#1957#2279#0" expanded="false" />
+                <element signature="e#2390#2532#0" expanded="false" />
+                <element signature="e#2425#2477#0" expanded="false" />
+                <element signature="e#2511#2532#0" expanded="false" />
+                <element signature="e#2690#18430#0" expanded="false" />
+                <element signature="e#5605#5725#0" expanded="false" />
+                <element signature="e#9792#9886#0" expanded="false" />
+                <element signature="e#9890#9986#0" expanded="false" />
+                <element signature="e#10971#11056#0" expanded="false" />
+                <element signature="e#11122#11334#0" expanded="false" />
+                <element signature="e#13316#13396#0" expanded="false" />
+                <element signature="e#13522#13641#0" expanded="false" />
+                <element signature="e#14349#14488#0" expanded="false" />
+                <element signature="e#14737#14823#0" expanded="false" />
+                <element signature="e#14916#15059#0" expanded="false" />
+                <element signature="e#15108#15194#0" expanded="false" />
+                <element signature="e#15586#15625#0" expanded="false" />
+                <element signature="e#15705#16205#0" expanded="false" />
+                <element signature="e#15713#16205#0" expanded="false" />
+                <element signature="e#16232#16713#0" expanded="false" />
+                <element signature="e#16240#16713#0" expanded="false" />
+                <element signature="e#17173#17403#0" expanded="false" />
+                <element signature="e#17413#17425#0" expanded="false" />
+                <element signature="e#17830#17918#0" expanded="false" />
+                <element signature="e#17983#18063#0" expanded="false" />
+                <element signature="e#18149#18218#0" expanded="false" />
+                <element signature="e#18493#18522#0" expanded="false" />
+                <element signature="e#18578#19011#0" expanded="false" />
+                <element signature="e#18753#18921#0" expanded="false" />
+                <element signature="e#19056#19619#0" expanded="false" />
+                <element signature="e#19656#19728#0" expanded="false" />
+                <element signature="e#19765#19837#0" expanded="false" />
+                <element signature="e#19871#19931#0" expanded="false" />
+                <element signature="e#19965#20072#0" expanded="false" />
+                <element signature="e#20123#20345#0" expanded="false" />
+                <element signature="e#20391#20421#0" expanded="false" />
+                <element signature="e#20474#20518#0" expanded="false" />
+                <element signature="e#20554#20768#0" expanded="false" />
+                <element signature="e#20805#20909#0" expanded="false" />
+                <element signature="e#20958#21170#0" expanded="false" />
+                <element signature="e#21204#21225#0" expanded="false" />
+                <element signature="e#21259#21285#0" expanded="false" />
+                <element signature="e#21339#21397#0" expanded="false" />
+                <element signature="e#21434#21540#0" expanded="false" />
+                <element signature="e#21602#21973#0" expanded="false" />
+                <element signature="e#21787#21973#0" expanded="false" />
+                <element signature="e#22024#22152#0" expanded="false" />
+                <element signature="e#22191#22248#0" expanded="false" />
+                <element signature="e#22285#22341#0" expanded="false" />
+                <element signature="e#22381#22920#0" expanded="false" />
+                <element signature="e#22453#22484#0" expanded="false" />
+                <element signature="e#22560#22641#0" expanded="false" />
+                <element signature="e#22692#22920#0" expanded="false" />
+                <element signature="e#22969#23030#0" expanded="false" />
+                <element signature="e#23076#23321#0" expanded="false" />
+                <element signature="e#23269#23315#0" expanded="false" />
+                <element signature="e#23437#23646#0" expanded="false" />
+                <element signature="e#23540#23646#0" expanded="false" />
+                <element signature="e#23734#24266#0" expanded="false" />
+                <element signature="e#23828#24009#0" expanded="false" />
+                <element signature="e#24307#24657#0" expanded="false" />
+                <element signature="e#24698#24946#0" expanded="false" />
+                <element signature="e#24728#24772#0" expanded="false" />
+                <element signature="e#24990#25459#0" expanded="false" />
+                <element signature="e#25070#25425#0" expanded="false" />
+                <element signature="e#25515#26979#0" expanded="false" />
+                <element signature="e#25605#25692#0" expanded="false" />
+                <element signature="e#25735#26080#0" expanded="false" />
+                <element signature="e#26231#26812#0" expanded="false" />
+                <element signature="e#26285#26589#0" expanded="false" />
+                <element signature="e#26624#26788#0" expanded="false" />
+                <element signature="e#26861#26979#0" expanded="false" />
+                <element signature="e#27022#27139#0" expanded="false" />
+                <element signature="e#27186#27357#0" expanded="false" />
+                <element signature="e#27267#27357#0" expanded="false" />
+                <element signature="e#27405#27705#0" expanded="false" />
+                <element signature="e#27511#27564#0" expanded="false" />
+                <element signature="e#27759#28626#0" expanded="false" />
+                <element signature="e#27759#27865#1" expanded="false" />
+                <element signature="e#27914#27999#0" expanded="false" />
+                <element signature="e#28105#28531#0" expanded="false" />
+                <element signature="e#28261#28342#0" expanded="false" />
+                <element signature="e#28558#28626#0" expanded="false" />
+                <element signature="e#28685#28815#0" expanded="false" />
+                <element signature="e#28855#29024#0" expanded="false" />
+                <element signature="e#29071#29120#0" expanded="false" />
+                <element signature="e#29164#29243#0" expanded="false" />
+                <element signature="e#29293#29452#0" expanded="false" />
+                <element signature="e#29501#29660#0" expanded="false" />
+                <element signature="e#29707#29823#0" expanded="false" />
+                <element signature="e#29872#33112#0" expanded="false" />
+                <element signature="e#30129#30188#0" expanded="false" />
+                <element signature="e#30299#30449#0" expanded="false" />
+                <element signature="e#30527#33091#0" expanded="false" />
+                <element signature="e#30586#31264#0" expanded="false" />
+                <element signature="e#30719#31072#0" expanded="false" />
+                <element signature="e#30799#30906#0" expanded="false" />
+                <element signature="e#31299#31483#0" expanded="false" />
+                <element signature="e#31299#31312#0" expanded="false" />
+                <element signature="e#31583#31820#0" expanded="false" />
+                <element signature="e#32483#32964#0" expanded="false" />
+                <element signature="e#32539#32769#0" expanded="false" />
+                <element signature="e#32812#32964#0" expanded="false" />
+                <element signature="e#33156#33331#0" expanded="false" />
+                <element signature="e#33368#33546#0" expanded="false" />
+                <element signature="e#33598#33718#0" expanded="false" />
+                <element signature="e#33758#34236#0" expanded="false" />
+                <element signature="e#34275#34418#0" expanded="false" />
+                <element signature="e#34461#35397#0" expanded="false" />
+                <element signature="e#35461#35519#0" expanded="false" />
+                <element signature="e#35570#36010#0" expanded="false" />
+                <element signature="e#35704#35943#0" expanded="false" />
+                <element signature="e#35739#35943#0" expanded="false" />
+                <element signature="e#35804#35943#0" expanded="false" />
+                <element signature="e#36063#36752#0" expanded="false" />
+                <element signature="e#36806#37363#0" expanded="false" />
+                <element signature="e#36990#37363#0" expanded="false" />
+                <element signature="e#37230#37312#0" expanded="false" />
+                <element signature="e#37410#38317#0" expanded="false" />
+                <element signature="e#38240#38317#0" expanded="false" />
+                <element signature="e#38366#38889#0" expanded="false" />
+                <element signature="e#38475#38889#0" expanded="false" />
+                <element signature="e#38577#38770#0" expanded="false" />
+                <element signature="e#38577#38634#0" expanded="false" />
+                <element signature="e#38940#39299#0" expanded="false" />
+                <element signature="e#39195#39299#0" expanded="false" />
+                <element signature="e#39350#39994#0" expanded="false" />
+                <element signature="e#39492#39546#0" expanded="false" />
+                <element signature="e#39783#39936#0" expanded="false" />
+                <element signature="e#40042#40633#0" expanded="false" />
+                <element signature="e#40519#40633#0" expanded="false" />
+                <element signature="e#40681#41223#0" expanded="false" />
+                <element signature="e#40763#41095#0" expanded="false" />
+                <element signature="e#41122#41223#0" expanded="false" />
+                <element signature="e#41273#41376#0" expanded="false" />
+                <element signature="e#41416#41984#0" expanded="false" />
+                <element signature="e#42039#42243#0" expanded="false" />
+                <element signature="e#42114#42243#0" expanded="false" />
+                <element signature="e#42292#42505#0" expanded="false" />
+                <element signature="e#42542#42601#0" expanded="false" />
+                <element signature="e#42647#42824#0" expanded="false" />
+                <element signature="e#42878#42995#0" expanded="false" />
+                <element signature="e#43032#43095#0" expanded="false" />
+                <element signature="e#43133#43486#0" expanded="false" />
+                <element signature="e#43305#43486#0" expanded="false" />
+                <element signature="e#43524#43825#0" expanded="false" />
+                <element signature="e#43696#43825#0" expanded="false" />
+                <element signature="e#43870#44062#0" expanded="false" />
+                <element signature="e#43978#44062#0" expanded="false" />
+                <element signature="e#44104#44381#0" expanded="false" />
+                <element signature="e#44276#44381#0" expanded="false" />
+                <element signature="e#44423#44700#0" expanded="false" />
+                <element signature="e#44595#44700#0" expanded="false" />
+                <element signature="e#44735#44838#0" expanded="false" />
+                <element signature="e#44873#44928#0" expanded="false" />
+                <element signature="e#44975#45436#0" expanded="false" />
+                <element signature="e#45133#45436#0" expanded="false" />
+                <element signature="e#45210#45436#0" expanded="false" />
+                <element signature="e#45245#45436#0" expanded="false" />
+                <element signature="e#45494#45787#0" expanded="false" />
+                <element signature="e#45818#46942#0" expanded="false" />
+                <element signature="e#45917#46015#0" expanded="false" />
+                <element signature="e#46064#46191#0" expanded="false" />
+                <element signature="e#46233#46277#0" expanded="false" />
+                <element signature="e#46325#46378#0" expanded="false" />
+                <element signature="e#46421#46942#0" expanded="false" />
+                <element signature="e#46574#46921#0" expanded="false" />
+                <element signature="e#46655#46921#0" expanded="false" />
+                <element signature="e#46680#46813#0" expanded="false" />
+                <element signature="e#46878#46921#0" expanded="false" />
+                <element signature="e#46970#47019#0" expanded="false" />
+                <element signature="e#47060#47167#0" expanded="false" />
+                <element signature="e#47073#47132#0" expanded="false" />
+                <element signature="e#47201#47545#0" expanded="false" />
+                <element signature="e#47201#47345#1" expanded="false" />
+                <element signature="e#47568#47661#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/test.py">
+      <file leaf-file-name="PascalVoc.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/PascalVoc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="54" />
+            <state relative-caret-position="357">
+              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
-                <element signature="e#1#35#0" expanded="true" />
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="e#404#709#0" expanded="false" />
+                <element signature="e#432#709#0" expanded="false" />
+                <element signature="e#742#1858#0" expanded="false" />
+                <element signature="e#779#829#0" expanded="false" />
+                <element signature="e#863#1019#0" expanded="false" />
+                <element signature="e#902#959#0" expanded="false" />
+                <element signature="e#1053#1858#0" expanded="false" />
+                <element signature="e#1892#5750#0" expanded="false" />
+                <element signature="e#1935#2475#0" expanded="false" />
+                <element signature="e#2523#3265#0" expanded="false" />
+                <element signature="e#2523#2603#1" expanded="false" />
+                <element signature="e#2669#2733#0" expanded="false" />
+                <element signature="e#3312#3679#0" expanded="false" />
+                <element signature="e#3312#3376#1" expanded="false" />
+                <element signature="e#3402#3468#0" expanded="false" />
+                <element signature="e#3723#4217#0" expanded="false" />
+                <element signature="e#3723#3821#1" expanded="false" />
+                <element signature="e#3847#3911#0" expanded="false" />
+                <element signature="e#4053#4190#0" expanded="false" />
+                <element signature="e#4259#5125#0" expanded="false" />
+                <element signature="e#4259#4362#1" expanded="false" />
+                <element signature="e#4388#4450#0" expanded="false" />
+                <element signature="e#4589#5099#0" expanded="false" />
+                <element signature="e#5171#5668#0" expanded="false" />
+                <element signature="e#5171#5263#1" expanded="false" />
+                <element signature="e#5289#5355#0" expanded="false" />
+                <element signature="e#5500#5640#0" expanded="false" />
+                <element signature="e#5698#5750#0" expanded="false" />
+                <element signature="e#5784#8229#0" expanded="false" />
+                <element signature="e#5812#5873#0" expanded="false" />
+                <element signature="e#5911#6604#0" expanded="false" />
+                <element signature="e#6651#7254#0" expanded="false" />
+                <element signature="e#6694#7235#0" expanded="false" />
+                <element signature="e#6741#6837#0" expanded="false" />
+                <element signature="e#6872#7235#0" expanded="false" />
+                <element signature="e#6930#7097#0" expanded="false" />
+                <element signature="e#7315#7706#0" expanded="false" />
+                <element signature="e#7363#7682#0" expanded="false" />
+                <element signature="e#7398#7507#0" expanded="false" />
+                <element signature="e#7542#7682#0" expanded="false" />
+                <element signature="e#7741#8229#0" expanded="false" />
+                <element signature="e#7755#8184#0" expanded="false" />
+                <element signature="e#7904#8053#0" expanded="false" />
+                <element signature="e#8075#8174#0" expanded="false" />
+                <element signature="e#8263#9668#0" expanded="false" />
+                <element signature="e#8291#8371#0" expanded="false" />
+                <element signature="e#8459#8777#0" expanded="false" />
+                <element signature="e#8823#9005#0" expanded="false" />
+                <element signature="e#9041#9381#0" expanded="false" />
+                <element signature="e#9058#9340#0" expanded="false" />
+                <element signature="e#9422#9668#0" expanded="false" />
+                <element signature="e#9422#9505#1" expanded="false" />
+                <element signature="e#9572#9645#0" expanded="false" />
+                <element signature="e#9697#12233#0" expanded="false" />
+                <element signature="e#9733#9813#0" expanded="false" />
+                <element signature="e#9871#9987#0" expanded="false" />
+                <element signature="e#10028#10993#0" expanded="false" />
+                <element signature="e#11039#12233#0" expanded="false" />
+                <element signature="e#11093#12233#0" expanded="false" />
+                <element signature="e#11177#12233#0" expanded="false" />
+                <element signature="e#11544#11716#0" expanded="false" />
+                <element signature="e#11790#11970#0" expanded="false" />
+                <element signature="e#12044#12233#0" expanded="false" />
+                <element signature="e#12265#12488#0" expanded="false" />
+                <element signature="e#12303#12332#0" expanded="false" />
+                <element signature="e#12370#12415#0" expanded="false" />
+                <element signature="e#12447#12488#0" expanded="false" />
+                <element signature="e#12522#12808#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="libs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs.py">
+      <file leaf-file-name="ParseVocXml.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../PascalVocXml/ParseVocXml.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="44" column="33" lean-forward="false" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+            <state relative-caret-position="2226">
+              <caret line="107" column="90" lean-forward="false" selection-start-line="106" selection-start-column="8" selection-end-line="107" selection-end-column="90" />
               <folding>
-                <element signature="e#18#39#0" expanded="true" />
+                <element signature="e#46#82#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
+      <file leaf-file-name="elasticnodes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/graphicsview/elasticnodes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="3318">
+              <caret line="165" column="60" lean-forward="false" selection-start-line="165" selection-start-column="8" selection-end-line="165" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OCR_Labeler.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OCR_Labeler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -244,8 +478,6 @@
     <findStrings>
       <find>stat</find>
       <find>label</find>
-      <find>graphicsView</find>
-      <find>top</find>
       <find>Arrow</find>
       <find>cur</find>
       <find>listView</find>
@@ -256,7 +488,30 @@
       <find>sourceView</find>
       <find>123</find>
       <find>dofc</find>
+      <find>ObjectItem</find>
+      <find>AnnoDefault</find>
+      <find>statusBar</find>
+      <find>treeWidget_file</find>
+      <find>read_text_anno</find>
+      <find>item_clicked</find>
+      <find>im_index_at</find>
+      <find>display_image</find>
+      <find>updata</find>
+      <find>itemSelected</find>
+      <find>view</find>
+      <find>graph</find>
+      <find>View</find>
+      <find>graphicsView</find>
+      <find>gridLayout_10</find>
+      <find>top</find>
+      <find>rect</find>
+      <find>itemMenu</find>
     </findStrings>
+    <replaceStrings>
+      <replace>updata</replace>
+      <replace>update</replace>
+      <replace>update_image</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -266,20 +521,36 @@
       <list>
         <option value="$PROJECT_DIR$/SuperLabelTool.py" />
         <option value="$PROJECT_DIR$/drawing.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/custom.py" />
         <option value="$PROJECT_DIR$/models/myGraphicsView.py" />
         <option value="E:/DATA/boat1118_rotation/jiaoben.py" />
         <option value="$PROJECT_DIR$/Ui_Form.py" />
         <option value="$PROJECT_DIR$/Form.py" />
         <option value="E:/DATA/boat1112_rect/jiaoben.py" />
-        <option value="$PROJECT_DIR$/libs.py" />
-        <option value="$PROJECT_DIR$/Form_ui.py" />
-        <option value="$PROJECT_DIR$/Main_Form.py" />
-        <option value="$PROJECT_DIR$/modules/PascalVoc.py" />
         <option value="$PROJECT_DIR$/modules/test.py" />
         <option value="$PROJECT_DIR$/modules/v3.py" />
+        <option value="E:/Dragon/Dragon/python/setup.py" />
         <option value="$PROJECT_DIR$/modules/newPascalVoc.py" />
+        <option value="$PROJECT_DIR$/../qt5examples/graphicsview/dragdroprobot/dragdroprobot.py" />
+        <option value="$PROJECT_DIR$/../REID-SDK/doc/REID-SDK/source/conf.py" />
+        <option value="$PROJECT_DIR$/Select_ui.py" />
+        <option value="$PROJECT_DIR$/Main_Form.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/Form_ui.py" />
+        <option value="$PROJECT_DIR$/modules/tesseract.py" />
+        <option value="$PROJECT_DIR$/OCR_Labeler.py" />
+        <option value="$PROJECT_DIR$/123.py" />
+        <option value="J:/OCRX_OUT/to_ocr_label.py" />
+        <option value="I:/CPTN_OCR/STN_CNN_LSTM_CTC_TensorFlow-master/train.py" />
+        <option value="J:/OCRX/auto_label.py" />
+        <option value="D:/DATA/OCRX/OUTPUT/split4label.py" />
+        <option value="$PROJECT_DIR$/examples/graphicsview/elasticnodes.py" />
+        <option value="$PROJECT_DIR$/examples/graphicsview/diagramscene/diagramscene.py" />
+        <option value="$PROJECT_DIR$/MainAction.py" />
+        <option value="$PROJECT_DIR$/libs.py" />
+        <option value="$PROJECT_DIR$/examples/graphicsview/elasticnodes_test.py" />
+        <option value="$PROJECT_DIR$/examples/graphicsview/my_test/main.py" />
+        <option value="$PROJECT_DIR$/modules/PascalVoc.py" />
       </list>
     </option>
   </component>
@@ -290,7 +561,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="-1928" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -311,28 +582,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SuperLabelTool" />
+              <option name="myItemId" value="SuperLabelTool_OCR" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SuperLabelTool" />
+              <option name="myItemId" value="SuperLabelTool_OCR" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/PlanePoint/GAO" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.buildout.BuildoutModulesConfigurable" />
+    <property name="last_opened_file_path" value="I:/CPTN_OCR/CTPN_CRNN" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -346,8 +617,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.newPascalVoc">
-    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration default="false" name="OCR_Labeler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -360,83 +631,83 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="SuperLabelTool" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OCR_Labeler.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="PascalVoc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="elasticnodes_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/graphicsview" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="SuperLabelTool" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/PascalVoc.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/graphicsview/elasticnodes_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="diagramscene" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/graphicsview/diagramscene" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="SuperLabelTool" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/graphicsview/diagramscene/diagramscene.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="newPascalVoc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/graphicsview/my_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="SuperLabelTool" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/newPascalVoc.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/graphicsview/my_test/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="v3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="labelImg" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../labelImg-master" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="SuperLabelTool" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/v3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../labelImg-master/labelImg.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -594,19 +865,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.main" />
-      <item index="1" class="java.lang.String" itemvalue="Python.PascalVoc" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.newPascalVoc" />
-      <item index="4" class="java.lang.String" itemvalue="Python.v3" />
+      <item index="0" class="java.lang.String" itemvalue="Python.OCR_Labeler" />
+      <item index="1" class="java.lang.String" itemvalue="Python.elasticnodes_test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.diagramscene" />
+      <item index="3" class="java.lang.String" itemvalue="Python.main" />
+      <item index="4" class="java.lang.String" itemvalue="Python.labelImg" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.newPascalVoc" />
-        <item index="1" class="java.lang.String" itemvalue="Python.v3" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.PascalVoc" />
-        <item index="4" class="java.lang.String" itemvalue="Python.main" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.labelImg" />
+        <item index="2" class="java.lang.String" itemvalue="Python.OCR_Labeler" />
+        <item index="3" class="java.lang.String" itemvalue="Python.diagramscene" />
+        <item index="4" class="java.lang.String" itemvalue="Python.elasticnodes_test" />
       </list>
     </recent_temporary>
   </component>
@@ -664,7 +935,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -672,13 +943,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33184358" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19776537" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15191898" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17270789" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29608938" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -688,8 +958,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -732,9 +1003,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Main_Form.py</url>
-          <line>104</line>
-          <option name="timeStamp" value="37" />
+          <url>file://$PROJECT_DIR$/MainAction.py</url>
+          <line>285</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/examples/graphicsview/elasticnodes.py</url>
+          <line>236</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/examples/graphicsview/elasticnodes.py</url>
+          <line>229</line>
+          <option name="timeStamp" value="161" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -744,454 +1025,651 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="107" />
+      <option name="time" value="195" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/graphicsview/dragdroprobot/dragdroprobot.py">
+    <entry file="file://I:/CPTN_OCR/STN_CNN_LSTM_CTC_TensorFlow-master/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        <state relative-caret-position="462">
+          <caret line="89" column="44" lean-forward="false" selection-start-line="89" selection-start-column="44" selection-end-line="89" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-920934142/PyQt5/QtCore/QLineF.py">
+    <entry file="file://J:/OCRX_OUT/to_ocr_label.py" />
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/PyQt5/Chapter11/mypyqtgraph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1120">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="-997">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-920934142/PyQt5/QtCore/QSizeF.py">
+    <entry file="file://$PROJECT_DIR$/PyQt5/Chapter08/qt08_imgScaled.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="494">
+          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-920934142/PyQt5/QtCore/QRectF.py">
+    <entry file="file://$PROJECT_DIR$/PyQt5/Chapter04/登陆.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="218" column="15" lean-forward="false" selection-start-line="218" selection-start-column="8" selection-end-line="218" selection-end-column="15" />
+        <state relative-caret-position="231">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-920934142/PyQt5/QtWidgets/QGraphicsRectItem.py">
+    <entry file="file://$PROJECT_DIR$/PyQt5/Chapter08/qt08_winBkground01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="101" column="12" lean-forward="false" selection-start-line="101" selection-start-column="12" selection-end-line="101" selection-end-column="12" />
+        <state relative-caret-position="420">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-1846899318/PyQt5/QtWidgets/QGraphicsRectItem.py">
+    <entry file="file://$PROJECT_DIR$/PyQt5/Chapter09/DataGrid.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1359">
-          <caret line="109" column="15" lean-forward="false" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="15" />
+        <state relative-caret-position="420">
+          <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyQt5/Chapter09/qt5_webview01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyQt5/Chapter09/matplotlib_pyqt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyQt5/Chapter09/demo_plotly_pyqt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyQt5/Chapter01/qt101_testPyQt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyQt5/Chapter04/qt0426_QPainter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyQt5/Chapter04/qt402_FirstPyQt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyQt5/Chapter04/qt04_drawPoint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyQt5/Chapter10/example1/getWeatherInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="50" lean-forward="false" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-1846899318/PyQt5/QtWidgets/QTreeWidget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="269" column="8" lean-forward="false" selection-start-line="269" selection-start-column="8" selection-end-line="269" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://J:/OCRX/split4label.py" />
+    <entry file="file://D:/DATA/OCRX/OUTPUT/split4label.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://J:/OCRX/auto_label.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-1846899318/PyQt5/QtWidgets/QGraphicsLineItem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="70" column="14" lean-forward="false" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-1846899318/PyQt5/QtWidgets/QGraphicsScene.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-520">
-          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="230">
+          <caret line="305" column="8" lean-forward="false" selection-start-line="305" selection-start-column="8" selection-end-line="305" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/DATA/boat1118_rotation/jiaoben.py">
+    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-1846899318/PyQt5/QtWidgets/QGraphicsSceneDragDropEvent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+        <state relative-caret-position="294">
+          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Form.py" />
-    <entry file="file://E:/DATA/boat1112_rect/zifu.py">
+    <entry file="file://E:/Anaconda2/envs/python35/Lib/site-packages/eric6/Graphics/AssociationItem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="220">
+          <caret line="96" column="32" lean-forward="false" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/DATA/boat1112_rect/jiaoben.py">
+    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-1846899318/PyQt5/QtWidgets/QGraphicsView.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="179" column="23" lean-forward="true" selection-start-line="179" selection-start-column="23" selection-end-line="179" selection-end-column="23" />
+        <state relative-caret-position="230">
+          <caret line="316" column="8" lean-forward="false" selection-start-line="316" selection-start-column="8" selection-end-line="316" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/itemviews/dirview.py">
+    <entry file="file://$PROJECT_DIR$/examples/draganddrop/dropsite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+        <state relative-caret-position="410">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/itemviews/puzzle/puzzle.py">
+    <entry file="file://$PROJECT_DIR$/PyQt5/Chapter04/qt04_drag.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="65" lean-forward="true" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+        <state relative-caret-position="756">
+          <caret line="39" column="33" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/itemviews/spreadsheet/spreadsheetitem.py">
+    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-1846899318/PyQt5/QtWidgets/QMainWindow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        <state relative-caret-position="133">
+          <caret line="284" column="43" lean-forward="false" selection-start-line="284" selection-start-column="43" selection-end-line="284" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/itemviews/spreadsheet/spreadsheet.py">
+    <entry file="file://$PROJECT_DIR$/examples/graphicsview/anchorlayout.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        <state relative-caret-position="473">
+          <caret line="127" column="15" lean-forward="true" selection-start-line="127" selection-start-column="15" selection-end-line="127" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/itemviews/pixelator/pixelator.py">
+    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-1846899318/PyQt5/QtWidgets/QGraphicsItem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        <state relative-caret-position="327">
+          <caret line="467" column="8" lean-forward="false" selection-start-line="467" selection-start-column="8" selection-end-line="467" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-1846899318/PyQt5/QtWidgets/QGraphicsLineItem.py">
+    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-1846899318/PyQt5/QtWidgets/QButtonGroup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/graphicsview/diagramscene/diagramscene.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="158" column="52" lean-forward="false" selection-start-line="157" selection-start-column="8" selection-end-line="158" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/opengl/grabber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/opengl/2dpainting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/opengl/hellogl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/opengl/openglwindow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/opengl/overpainting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/opengl/textures/textures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/tutorials/addressbook/part3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/dbus/listnames.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="23" column="67" lean-forward="false" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/layouts/basiclayouts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/itemviews/chart/chart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="17" column="66" lean-forward="false" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/desktop/screenshot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="73" lean-forward="true" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/itemviews/simpletreemodel/simpletreemodel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4317">
-          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/itemviews/simplewidgetmapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/itemviews/basicsortfiltermodel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="90" column="24" lean-forward="true" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ui_Form.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-858">
-          <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+        <state relative-caret-position="482">
+          <caret line="108" column="8" lean-forward="false" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Form_ui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="64" column="64" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="64" />
-          <folding />
+        <state relative-caret-position="84">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="44" column="33" lean-forward="false" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+        <state relative-caret-position="515">
+          <caret line="204" column="39" lean-forward="false" selection-start-line="204" selection-start-column="10" selection-end-line="204" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainAction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630">
+          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
           <folding>
-            <element signature="e#18#39#0" expanded="true" />
+            <element signature="e#25#64#1" expanded="false" />
+            <element signature="e#763#809#1" expanded="false" />
+            <element signature="e#855#965#1" expanded="false" />
+            <element signature="e#2529#2601#0" expanded="false" />
+            <element signature="e#2651#2932#0" expanded="false" />
+            <element signature="e#2790#2855#0" expanded="false" />
+            <element signature="e#2997#3050#1" expanded="false" />
+            <marker date="1521882742544" expanded="false" signature="8025:8096" ph="..." />
+            <marker date="1521882742544" expanded="false" signature="8504:8854" ph="..." />
+            <marker date="1521882742544" expanded="false" signature="8533:8661" ph="..." />
+            <marker date="1521882742544" expanded="false" signature="8675:8854" ph="..." />
+            <marker date="1521882742544" expanded="false" signature="8880:9620" ph="..." />
+            <marker date="1521882742544" expanded="false" signature="8914:9620" ph="..." />
+            <marker date="1521882742544" expanded="false" signature="8931:9579" ph="..." />
+            <marker date="1521882742544" expanded="false" signature="10178:10513" ph="..." />
+            <marker date="1521882742544" expanded="false" signature="10191:10475" ph="..." />
+            <marker date="1521882742544" expanded="false" signature="10569:10632" ph="..." />
+            <marker date="1521882742544" expanded="false" signature="10692:10788" ph="..." />
+            <marker date="1521882742544" expanded="false" signature="11157:11644" ph="..." />
+            <marker date="1521882742544" expanded="false" signature="11174:11384" ph="..." />
+            <marker date="1521882742544" expanded="false" signature="11398:11612" ph="..." />
+            <marker date="1521882742544" expanded="false" signature="11671:12045" ph="..." />
+            <marker date="1521882742544" expanded="false" signature="11684:12012" ph="..." />
+            <marker date="1521882742544" expanded="false" signature="11719:11973" ph="..." />
+            <marker date="1521882742544" expanded="false" signature="12077:12493" ph="..." />
+            <marker date="1521882742544" expanded="false" signature="12090:12460" ph="..." />
+            <marker date="1521882742544" expanded="false" signature="12244:12460" ph="..." />
+            <marker date="1521882742544" expanded="false" signature="12289:12460" ph="..." />
+            <marker date="1521882742544" expanded="false" signature="12554:12623" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/decoder.py" />
-    <entry file="file://$PROJECT_DIR$/modules/encoder.py" />
-    <entry file="file://$PROJECT_DIR$/modules/XML2Dict.py" />
-    <entry file="file://$PROJECT_DIR$/modules/Dict2XML.py" />
-    <entry file="file://E:/Anaconda2/envs/python35/Lib/xml/etree/ElementTree.py">
+    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-1846899318/PyQt5/QtCore/QPointF.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47700">
-          <caret line="1641" column="22" lean-forward="true" selection-start-line="1641" selection-start-column="22" selection-end-line="1641" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="1616">
+          <caret line="77" column="8" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../CascadeSSD/stage3-48net/vis_stage3.py">
+    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-1846899318/PyQt5/QtCore/QRectF.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="6195">
+          <caret line="296" column="8" lean-forward="false" selection-start-line="296" selection-start-column="8" selection-end-line="296" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../labelImg-master/libs/pascal_voc_io.py">
+    <entry file="file://$PROJECT_DIR$/examples/graphicsview/diagramscene/diagramscene.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-256">
-          <caret line="139" column="22" lean-forward="false" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
-          <folding>
-            <element signature="e#45#62#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/PlanePoint/PlanePoints/tools/lib/ParseVocXml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="139" column="90" lean-forward="false" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="90" />
-          <folding>
-            <element signature="e#46#82#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main_Form.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="58" column="12" lean-forward="false" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
-          <folding>
-            <element signature="e#68#110#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="54" />
-          <folding>
-            <element signature="e#1#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/563853580/FileRecv/examples/itemviews/customsortfiltermodel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="207" column="4" lean-forward="false" selection-start-line="207" selection-start-column="4" selection-end-line="207" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="215" column="0" lean-forward="false" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://E:/Anaconda2/envs/python35/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
+        <state relative-caret-position="443">
+          <caret line="331" column="0" lean-forward="false" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-1846899318/PyQt5/QtWidgets/QGraphicsRectItem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/graphicsview/elasticnodes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3318">
+          <caret line="165" column="60" lean-forward="false" selection-start-line="165" selection-start-column="8" selection-end-line="165" selection-end-column="60" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../labelImg-master/libs/shape.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2394">
+          <caret line="114" column="18" lean-forward="false" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../labelImg-master/_init_path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../labelImg-master/libs/canvas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../labelImg-master/libs/zoomWidget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/graphicsview/my_test/Form_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/graphicsview/my_test/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/graphicsview/elasticnodes_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="63" column="44" lean-forward="false" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#2058#2069#0" expanded="true" />
+            <element signature="e#3417#4068#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../labelImg-master/labelImg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1323">
+          <caret line="509" column="0" lean-forward="false" selection-start-line="509" selection-start-column="0" selection-end-line="509" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#208#298#0" expanded="false" />
+            <element signature="e#323#676#0" expanded="false" />
+            <element signature="e#323#343#0" expanded="false" />
+            <element signature="e#571#615#0" expanded="false" />
+            <element signature="e#1206#1447#0" expanded="false" />
+            <element signature="e#1280#1413#0" expanded="false" />
+            <element signature="e#1474#1628#0" expanded="false" />
+            <element signature="e#1663#1709#0" expanded="false" />
+            <element signature="e#1744#2282#0" expanded="false" />
+            <element signature="e#1789#1903#0" expanded="false" />
+            <element signature="e#1957#2279#0" expanded="false" />
+            <element signature="e#2390#2532#0" expanded="false" />
+            <element signature="e#2425#2477#0" expanded="false" />
+            <element signature="e#2511#2532#0" expanded="false" />
+            <element signature="e#2690#18430#0" expanded="false" />
+            <element signature="e#5605#5725#0" expanded="false" />
+            <element signature="e#9792#9886#0" expanded="false" />
+            <element signature="e#9890#9986#0" expanded="false" />
+            <element signature="e#10971#11056#0" expanded="false" />
+            <element signature="e#11122#11334#0" expanded="false" />
+            <element signature="e#13316#13396#0" expanded="false" />
+            <element signature="e#13522#13641#0" expanded="false" />
+            <element signature="e#14349#14488#0" expanded="false" />
+            <element signature="e#14737#14823#0" expanded="false" />
+            <element signature="e#14916#15059#0" expanded="false" />
+            <element signature="e#15108#15194#0" expanded="false" />
+            <element signature="e#15586#15625#0" expanded="false" />
+            <element signature="e#15705#16205#0" expanded="false" />
+            <element signature="e#15713#16205#0" expanded="false" />
+            <element signature="e#16232#16713#0" expanded="false" />
+            <element signature="e#16240#16713#0" expanded="false" />
+            <element signature="e#17173#17403#0" expanded="false" />
+            <element signature="e#17413#17425#0" expanded="false" />
+            <element signature="e#17830#17918#0" expanded="false" />
+            <element signature="e#17983#18063#0" expanded="false" />
+            <element signature="e#18149#18218#0" expanded="false" />
+            <element signature="e#18493#18522#0" expanded="false" />
+            <element signature="e#18578#19011#0" expanded="false" />
+            <element signature="e#18753#18921#0" expanded="false" />
+            <element signature="e#19056#19619#0" expanded="false" />
+            <element signature="e#19656#19728#0" expanded="false" />
+            <element signature="e#19765#19837#0" expanded="false" />
+            <element signature="e#19871#19931#0" expanded="false" />
+            <element signature="e#19965#20072#0" expanded="false" />
+            <element signature="e#20123#20345#0" expanded="false" />
+            <element signature="e#20391#20421#0" expanded="false" />
+            <element signature="e#20474#20518#0" expanded="false" />
+            <element signature="e#20554#20768#0" expanded="false" />
+            <element signature="e#20805#20909#0" expanded="false" />
+            <element signature="e#20958#21170#0" expanded="false" />
+            <element signature="e#21204#21225#0" expanded="false" />
+            <element signature="e#21259#21285#0" expanded="false" />
+            <element signature="e#21339#21397#0" expanded="false" />
+            <element signature="e#21434#21540#0" expanded="false" />
+            <element signature="e#21602#21973#0" expanded="false" />
+            <element signature="e#21787#21973#0" expanded="false" />
+            <element signature="e#22024#22152#0" expanded="false" />
+            <element signature="e#22191#22248#0" expanded="false" />
+            <element signature="e#22285#22341#0" expanded="false" />
+            <element signature="e#22381#22920#0" expanded="false" />
+            <element signature="e#22453#22484#0" expanded="false" />
+            <element signature="e#22560#22641#0" expanded="false" />
+            <element signature="e#22692#22920#0" expanded="false" />
+            <element signature="e#22969#23030#0" expanded="false" />
+            <element signature="e#23076#23321#0" expanded="false" />
+            <element signature="e#23269#23315#0" expanded="false" />
+            <element signature="e#23437#23646#0" expanded="false" />
+            <element signature="e#23540#23646#0" expanded="false" />
+            <element signature="e#23734#24266#0" expanded="false" />
+            <element signature="e#23828#24009#0" expanded="false" />
+            <element signature="e#24307#24657#0" expanded="false" />
+            <element signature="e#24698#24946#0" expanded="false" />
+            <element signature="e#24728#24772#0" expanded="false" />
+            <element signature="e#24990#25459#0" expanded="false" />
+            <element signature="e#25070#25425#0" expanded="false" />
+            <element signature="e#25515#26979#0" expanded="false" />
+            <element signature="e#25605#25692#0" expanded="false" />
+            <element signature="e#25735#26080#0" expanded="false" />
+            <element signature="e#26231#26812#0" expanded="false" />
+            <element signature="e#26285#26589#0" expanded="false" />
+            <element signature="e#26624#26788#0" expanded="false" />
+            <element signature="e#26861#26979#0" expanded="false" />
+            <element signature="e#27022#27139#0" expanded="false" />
+            <element signature="e#27186#27357#0" expanded="false" />
+            <element signature="e#27267#27357#0" expanded="false" />
+            <element signature="e#27405#27705#0" expanded="false" />
+            <element signature="e#27511#27564#0" expanded="false" />
+            <element signature="e#27759#28626#0" expanded="false" />
+            <element signature="e#27759#27865#1" expanded="false" />
+            <element signature="e#27914#27999#0" expanded="false" />
+            <element signature="e#28105#28531#0" expanded="false" />
+            <element signature="e#28261#28342#0" expanded="false" />
+            <element signature="e#28558#28626#0" expanded="false" />
+            <element signature="e#28685#28815#0" expanded="false" />
+            <element signature="e#28855#29024#0" expanded="false" />
+            <element signature="e#29071#29120#0" expanded="false" />
+            <element signature="e#29164#29243#0" expanded="false" />
+            <element signature="e#29293#29452#0" expanded="false" />
+            <element signature="e#29501#29660#0" expanded="false" />
+            <element signature="e#29707#29823#0" expanded="false" />
+            <element signature="e#29872#33112#0" expanded="false" />
+            <element signature="e#30129#30188#0" expanded="false" />
+            <element signature="e#30299#30449#0" expanded="false" />
+            <element signature="e#30527#33091#0" expanded="false" />
+            <element signature="e#30586#31264#0" expanded="false" />
+            <element signature="e#30719#31072#0" expanded="false" />
+            <element signature="e#30799#30906#0" expanded="false" />
+            <element signature="e#31299#31483#0" expanded="false" />
+            <element signature="e#31299#31312#0" expanded="false" />
+            <element signature="e#31583#31820#0" expanded="false" />
+            <element signature="e#32483#32964#0" expanded="false" />
+            <element signature="e#32539#32769#0" expanded="false" />
+            <element signature="e#32812#32964#0" expanded="false" />
+            <element signature="e#33156#33331#0" expanded="false" />
+            <element signature="e#33368#33546#0" expanded="false" />
+            <element signature="e#33598#33718#0" expanded="false" />
+            <element signature="e#33758#34236#0" expanded="false" />
+            <element signature="e#34275#34418#0" expanded="false" />
+            <element signature="e#34461#35397#0" expanded="false" />
+            <element signature="e#35461#35519#0" expanded="false" />
+            <element signature="e#35570#36010#0" expanded="false" />
+            <element signature="e#35704#35943#0" expanded="false" />
+            <element signature="e#35739#35943#0" expanded="false" />
+            <element signature="e#35804#35943#0" expanded="false" />
+            <element signature="e#36063#36752#0" expanded="false" />
+            <element signature="e#36806#37363#0" expanded="false" />
+            <element signature="e#36990#37363#0" expanded="false" />
+            <element signature="e#37230#37312#0" expanded="false" />
+            <element signature="e#37410#38317#0" expanded="false" />
+            <element signature="e#38240#38317#0" expanded="false" />
+            <element signature="e#38366#38889#0" expanded="false" />
+            <element signature="e#38475#38889#0" expanded="false" />
+            <element signature="e#38577#38770#0" expanded="false" />
+            <element signature="e#38577#38634#0" expanded="false" />
+            <element signature="e#38940#39299#0" expanded="false" />
+            <element signature="e#39195#39299#0" expanded="false" />
+            <element signature="e#39350#39994#0" expanded="false" />
+            <element signature="e#39492#39546#0" expanded="false" />
+            <element signature="e#39783#39936#0" expanded="false" />
+            <element signature="e#40042#40633#0" expanded="false" />
+            <element signature="e#40519#40633#0" expanded="false" />
+            <element signature="e#40681#41223#0" expanded="false" />
+            <element signature="e#40763#41095#0" expanded="false" />
+            <element signature="e#41122#41223#0" expanded="false" />
+            <element signature="e#41273#41376#0" expanded="false" />
+            <element signature="e#41416#41984#0" expanded="false" />
+            <element signature="e#42039#42243#0" expanded="false" />
+            <element signature="e#42114#42243#0" expanded="false" />
+            <element signature="e#42292#42505#0" expanded="false" />
+            <element signature="e#42542#42601#0" expanded="false" />
+            <element signature="e#42647#42824#0" expanded="false" />
+            <element signature="e#42878#42995#0" expanded="false" />
+            <element signature="e#43032#43095#0" expanded="false" />
+            <element signature="e#43133#43486#0" expanded="false" />
+            <element signature="e#43305#43486#0" expanded="false" />
+            <element signature="e#43524#43825#0" expanded="false" />
+            <element signature="e#43696#43825#0" expanded="false" />
+            <element signature="e#43870#44062#0" expanded="false" />
+            <element signature="e#43978#44062#0" expanded="false" />
+            <element signature="e#44104#44381#0" expanded="false" />
+            <element signature="e#44276#44381#0" expanded="false" />
+            <element signature="e#44423#44700#0" expanded="false" />
+            <element signature="e#44595#44700#0" expanded="false" />
+            <element signature="e#44735#44838#0" expanded="false" />
+            <element signature="e#44873#44928#0" expanded="false" />
+            <element signature="e#44975#45436#0" expanded="false" />
+            <element signature="e#45133#45436#0" expanded="false" />
+            <element signature="e#45210#45436#0" expanded="false" />
+            <element signature="e#45245#45436#0" expanded="false" />
+            <element signature="e#45494#45787#0" expanded="false" />
+            <element signature="e#45818#46942#0" expanded="false" />
+            <element signature="e#45917#46015#0" expanded="false" />
+            <element signature="e#46064#46191#0" expanded="false" />
+            <element signature="e#46233#46277#0" expanded="false" />
+            <element signature="e#46325#46378#0" expanded="false" />
+            <element signature="e#46421#46942#0" expanded="false" />
+            <element signature="e#46574#46921#0" expanded="false" />
+            <element signature="e#46655#46921#0" expanded="false" />
+            <element signature="e#46680#46813#0" expanded="false" />
+            <element signature="e#46878#46921#0" expanded="false" />
+            <element signature="e#46970#47019#0" expanded="false" />
+            <element signature="e#47060#47167#0" expanded="false" />
+            <element signature="e#47073#47132#0" expanded="false" />
+            <element signature="e#47201#47545#0" expanded="false" />
+            <element signature="e#47201#47345#1" expanded="false" />
+            <element signature="e#47568#47661#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OCR_Labeler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../labelImg-master/libs/lib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PascalVocXml/ParseVocXml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2226">
+          <caret line="107" column="90" lean-forward="false" selection-start-line="106" selection-start-column="8" selection-end-line="107" selection-end-column="90" />
+          <folding>
+            <element signature="e#46#82#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/PascalVoc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="228" column="28" lean-forward="false" selection-start-line="228" selection-start-column="28" selection-end-line="228" selection-end-column="28" />
-          <folding>
-            <element signature="e#221#230#0" expanded="true" />
-            <element signature="e#320#460#0" expanded="false" />
-            <element signature="e#355#408#0" expanded="false" />
-            <element signature="e#492#1366#0" expanded="false" />
-            <element signature="e#529#577#0" expanded="false" />
-            <element signature="e#611#1366#0" expanded="false" />
-            <element signature="e#1396#2811#0" expanded="false" />
-            <element signature="e#1439#1979#0" expanded="false" />
-            <element signature="e#2023#2599#0" expanded="false" />
-            <element signature="e#2080#2391#0" expanded="false" />
-            <element signature="e#2646#2753#0" expanded="false" />
-            <element signature="e#2783#2811#0" expanded="false" />
-            <element signature="e#3038#4369#0" expanded="false" />
-            <element signature="e#3095#3184#0" expanded="false" />
-            <element signature="e#3252#3344#0" expanded="false" />
-            <element signature="e#3412#3814#0" expanded="false" />
-            <element signature="e#3880#4214#0" expanded="false" />
-            <element signature="e#4281#4369#0" expanded="false" />
-            <element signature="e#4427#4543#0" expanded="false" />
-            <element signature="e#4588#6259#0" expanded="false" />
-            <element signature="e#5620#6259#0" expanded="false" />
-            <element signature="e#5674#6259#0" expanded="false" />
-            <element signature="e#6105#6258#0" expanded="false" />
-            <element signature="e#6347#6705#0" expanded="false" />
-            <element signature="e#6741#6813#0" expanded="false" />
-            <element signature="e#6851#7100#0" expanded="false" />
-            <element signature="e#7180#7902#0" expanded="false" />
-            <element signature="e#7854#7902#0" expanded="false" />
-            <element signature="e#8169#8658#0" expanded="false" />
-            <element signature="e#8710#9334#0" expanded="false" />
-            <element signature="e#8779#9106#0" expanded="false" />
-            <element signature="e#9389#9508#0" expanded="false" />
-            <element signature="e#9546#9574#0" expanded="false" />
-            <element signature="e#9611#10942#0" expanded="false" />
-            <element signature="e#9668#9757#0" expanded="false" />
-            <element signature="e#9825#9917#0" expanded="false" />
-            <element signature="e#9985#10387#0" expanded="false" />
-            <element signature="e#10453#10787#0" expanded="false" />
-            <element signature="e#10854#10942#0" expanded="false" />
-            <element signature="e#11382#11801#0" expanded="false" />
-            <element signature="e#11700#11734#0" expanded="false" />
-            <element signature="e#11835#11853#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/v3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
-          <folding>
-            <element signature="e#408#1823#0" expanded="false" />
-            <element signature="e#2254#2263#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/newPascalVoc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="853">
-          <caret line="156" column="0" lean-forward="true" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+        <state relative-caret-position="357">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
-            <element signature="e#403#708#0" expanded="false" />
-            <element signature="e#431#708#0" expanded="false" />
-            <element signature="e#740#1854#0" expanded="false" />
-            <element signature="e#777#825#0" expanded="false" />
-            <element signature="e#859#1015#0" expanded="false" />
-            <element signature="e#898#955#0" expanded="false" />
-            <element signature="e#1049#1854#0" expanded="false" />
-            <element signature="e#1931#2471#0" expanded="false" />
-            <element signature="e#2519#3261#0" expanded="false" />
-            <element signature="e#2519#2599#1" expanded="false" />
-            <element signature="e#2665#2729#0" expanded="false" />
-            <element signature="e#3305#3791#0" expanded="false" />
-            <element signature="e#3305#3395#1" expanded="false" />
-            <element signature="e#3833#4699#0" expanded="false" />
-            <element signature="e#3833#3936#1" expanded="false" />
-            <element signature="e#3962#4024#0" expanded="false" />
-            <element signature="e#4163#4673#0" expanded="false" />
-            <element signature="e#4745#5242#0" expanded="false" />
-            <element signature="e#4745#4837#1" expanded="false" />
-            <element signature="e#4863#4929#0" expanded="false" />
-            <element signature="e#5074#5214#0" expanded="false" />
-            <element signature="e#5272#5324#0" expanded="false" />
-            <element signature="e#5358#7956#0" expanded="false" />
-            <element signature="e#5386#5447#0" expanded="false" />
-            <element signature="e#5494#6097#0" expanded="false" />
-            <element signature="e#6132#6588#0" expanded="false" />
-            <element signature="e#6263#6412#0" expanded="false" />
-            <element signature="e#6434#6533#0" expanded="false" />
-            <element signature="e#6625#7956#0" expanded="false" />
-            <element signature="e#6839#6931#0" expanded="false" />
-            <element signature="e#6999#7401#0" expanded="false" />
-            <element signature="e#7467#7801#0" expanded="false" />
-            <element signature="e#7868#7956#0" expanded="false" />
-            <element signature="e#8018#8098#0" expanded="false" />
-            <element signature="e#8189#8507#0" expanded="false" />
-            <element signature="e#8553#8735#0" expanded="false" />
-            <element signature="e#8771#9111#0" expanded="false" />
-            <element signature="e#9176#9256#0" expanded="false" />
-            <element signature="e#9314#9430#0" expanded="false" />
-            <element signature="e#9471#10357#0" expanded="false" />
-            <element signature="e#10403#11337#0" expanded="false" />
-            <element signature="e#10911#11083#0" expanded="false" />
-            <element signature="e#11157#11337#0" expanded="false" />
-            <element signature="e#11407#11436#0" expanded="false" />
-            <element signature="e#11551#11592#0" expanded="false" />
+            <element signature="e#404#709#0" expanded="false" />
+            <element signature="e#432#709#0" expanded="false" />
+            <element signature="e#742#1858#0" expanded="false" />
+            <element signature="e#779#829#0" expanded="false" />
+            <element signature="e#863#1019#0" expanded="false" />
+            <element signature="e#902#959#0" expanded="false" />
+            <element signature="e#1053#1858#0" expanded="false" />
+            <element signature="e#1892#5750#0" expanded="false" />
+            <element signature="e#1935#2475#0" expanded="false" />
+            <element signature="e#2523#3265#0" expanded="false" />
+            <element signature="e#2523#2603#1" expanded="false" />
+            <element signature="e#2669#2733#0" expanded="false" />
+            <element signature="e#3312#3679#0" expanded="false" />
+            <element signature="e#3312#3376#1" expanded="false" />
+            <element signature="e#3402#3468#0" expanded="false" />
+            <element signature="e#3723#4217#0" expanded="false" />
+            <element signature="e#3723#3821#1" expanded="false" />
+            <element signature="e#3847#3911#0" expanded="false" />
+            <element signature="e#4053#4190#0" expanded="false" />
+            <element signature="e#4259#5125#0" expanded="false" />
+            <element signature="e#4259#4362#1" expanded="false" />
+            <element signature="e#4388#4450#0" expanded="false" />
+            <element signature="e#4589#5099#0" expanded="false" />
+            <element signature="e#5171#5668#0" expanded="false" />
+            <element signature="e#5171#5263#1" expanded="false" />
+            <element signature="e#5289#5355#0" expanded="false" />
+            <element signature="e#5500#5640#0" expanded="false" />
+            <element signature="e#5698#5750#0" expanded="false" />
+            <element signature="e#5784#8229#0" expanded="false" />
+            <element signature="e#5812#5873#0" expanded="false" />
+            <element signature="e#5911#6604#0" expanded="false" />
+            <element signature="e#6651#7254#0" expanded="false" />
+            <element signature="e#6694#7235#0" expanded="false" />
+            <element signature="e#6741#6837#0" expanded="false" />
+            <element signature="e#6872#7235#0" expanded="false" />
+            <element signature="e#6930#7097#0" expanded="false" />
+            <element signature="e#7315#7706#0" expanded="false" />
+            <element signature="e#7363#7682#0" expanded="false" />
+            <element signature="e#7398#7507#0" expanded="false" />
+            <element signature="e#7542#7682#0" expanded="false" />
+            <element signature="e#7741#8229#0" expanded="false" />
+            <element signature="e#7755#8184#0" expanded="false" />
+            <element signature="e#7904#8053#0" expanded="false" />
+            <element signature="e#8075#8174#0" expanded="false" />
+            <element signature="e#8263#9668#0" expanded="false" />
+            <element signature="e#8291#8371#0" expanded="false" />
+            <element signature="e#8459#8777#0" expanded="false" />
+            <element signature="e#8823#9005#0" expanded="false" />
+            <element signature="e#9041#9381#0" expanded="false" />
+            <element signature="e#9058#9340#0" expanded="false" />
+            <element signature="e#9422#9668#0" expanded="false" />
+            <element signature="e#9422#9505#1" expanded="false" />
+            <element signature="e#9572#9645#0" expanded="false" />
+            <element signature="e#9697#12233#0" expanded="false" />
+            <element signature="e#9733#9813#0" expanded="false" />
+            <element signature="e#9871#9987#0" expanded="false" />
+            <element signature="e#10028#10993#0" expanded="false" />
+            <element signature="e#11039#12233#0" expanded="false" />
+            <element signature="e#11093#12233#0" expanded="false" />
+            <element signature="e#11177#12233#0" expanded="false" />
+            <element signature="e#11544#11716#0" expanded="false" />
+            <element signature="e#11790#11970#0" expanded="false" />
+            <element signature="e#12044#12233#0" expanded="false" />
+            <element signature="e#12265#12488#0" expanded="false" />
+            <element signature="e#12303#12332#0" expanded="false" />
+            <element signature="e#12370#12415#0" expanded="false" />
+            <element signature="e#12447#12488#0" expanded="false" />
+            <element signature="e#12522#12808#0" expanded="false" />
           </folding>
         </state>
       </provider>

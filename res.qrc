@@ -22,5 +22,6 @@
     <file>icons/hide.png</file>
     <file>icons/edit_label.png</file>
     <file>icons/home.png</file>
+    <file>icons/dragon.png</file>
   </qresource>
 </RCC>
